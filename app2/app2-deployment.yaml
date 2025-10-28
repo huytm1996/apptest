@@ -15,7 +15,7 @@ spec:
       imagePullSecrets:
       - name: dockerhub-creds
       containers:
-      - name: app1
+      - name: app2
         image: huytm1996/app2:latest
         ports:
         - containerPort: 80
